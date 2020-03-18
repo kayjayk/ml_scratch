@@ -45,14 +45,14 @@ def matrix_transpose(matrix_variable):
 
 
 def scalar_matrix_product(alpha, matrix_variable):
-    return None
+    return [[alpha * t for t in vector] for vector in matrix_variable]
 
 
 def is_product_availability_matrix(matrix_a, matrix_b):
-    return None
+    return len([t for t in zip(*matrix_a)]) == len(matrix_b)
 
 
 def matrix_product(matrix_a, matrix_b):
     if not is_product_availability_matrix(matrix_a, matrix_b):
         raise ArithmeticError
-    return None
+    return [[sum(a*b for a,b in zip(row_a, column_b)) for column_b in zip(*matrix_b)] for row_a in matrix_a]
