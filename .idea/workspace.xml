@@ -19,6 +19,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,5 +33,11 @@
       <updated>1584284870549</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1060" y="657" key="SettingsEditor" timestamp="1585054151973">
+      <screen x="-1920" y="472" width="1858" height="1080" />
+    </state>
+    <state x="-1060" y="657" key="SettingsEditor/-1920.472.1858.1080/0.0.1858.1080@-1920.472.1858.1080" timestamp="1585054151973" />
   </component>
 </project>
